@@ -8,4 +8,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/signup', [SignupController::class, 'create']);
-Route::get('/login', [LoginController::class, 'login']);
+Route::get('/login', [LoginController::class, 'create']);
