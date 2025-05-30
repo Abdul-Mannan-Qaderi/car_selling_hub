@@ -1,8 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Car;
+use App\Models\Maker;
+use App\Models\FuelType;
 
 use Illuminate\Http\Request;
+
 
 class HomeController extends Controller
 {
